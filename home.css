@@ -1,0 +1,180 @@
+.headlogo{
+    /* height: 50px; */
+text-align: center;
+    margin-top: -300px;
+
+}
+:root {
+    --main-color: #2e2e2e;
+    --accent-color: darkred;
+    --background-color: #f9f6f1;
+    --font-primary: 'Playfair Display', serif;
+    --font-secondary: 'Roboto', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-secondary);
+    background-color: var(--background-color);
+    color: var(--main-color);
+  }
+
+
+  
+  header {
+    background-color: rgb(233, 225, 191);
+    padding-top: 1.2%;
+    padding-bottom: 1%;
+
+
+
+    text-align: center;
+  }
+
+  
+  header h1 {
+    font-family: var(--font-primary);
+    font-size: 50px;
+    margin-right: 100px;
+
+
+    color: var(--main-color);
+  }
+  header img {
+    height: 60px;
+    margin-left: 200px;
+    margin-top: -600px;
+    margin-bottom: 45px;
+
+  }
+  header a {
+    color: black;
+    font-weight: lighter;
+    font-size: x-small;
+  
+  }
+  header a:hover {
+    color: darkred;
+
+  }
+  
+  nav {
+    background-color: var(--accent-color);
+    padding: 1rem;
+    text-align: center;
+  }
+
+.table {
+    height: 500px;
+    text-align: center;
+    margin-top: 4%;
+
+
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #2e2e2e;
+  }
+  
+  .hero {
+    background: url('https://images.unsplash.com/photo-1559847844-5315695dada6') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: -100px;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    font-family: var(--font-primary);
+  }
+  
+  .about-section {
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+    .about-section2 {
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  .about-section h3 {
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #c79c2c;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #999;
+  }
+  section img {
+    height: 230px;
+    text-align: center;
+    margin: 3%;
+    margin-left: 10%;
+    align-items: center;
+  }
+      .about-section {
+    
+   
+    align-items: center;
+    text-align: center;
+    
+  }
+    .about-section2 h2 {
+    
+   
+    margin-left: 10%;
+    
+  }
+      .about-section2 p {
+    
+   
+    margin-left: 10%;
+    
+  }

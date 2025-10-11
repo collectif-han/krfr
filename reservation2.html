@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+  <header>
+    <a href="home.html"><div> 
+        <h1>Rupture</h1><img src="img/logo.png" alt="">
+        </nav>
+    </div></a>
+  </header>
+  <nav>
+    <a href="home.html">About us</a>
+    <a href="menu.html">Memu</a>
+    <a href="reservation.html" target="_blank">Reserve</a>
+  </nav>
+<div class="table">
+  <img class="table" src="img/table.webp" alt="">
+</div>
+
+
+  <section class="menu-section">
+    <h2>Reservation</h2>
+    <form class="menu-form">
+      <label for="dish">Menu</label>
+      <select id="dish" name="dish" required>
+        <option value="">Choose Menu</option>
+        <option value="steak">Lunch - Duck Steak Sandwich</option>
+        <option value="pasta">Lunch - Veggie Steak Sandwich</option>
+        <option value="salad">Dinner - Duck Leg Steak</option>
+        <option value="salad">Entry - Carrot Soup</option>
+        <option value="salad">Dessert - Chocola Yum</option>
+      </select>
+
+      <label for="allergy">Food Ristriction</label>
+      <input type="text" id="allergy" name="allergy" placeholder="Write your food restriction and prefernece">
+
+      <label for="sauce">Sauce Option</label>
+      <select id="sauce" name="sauce">
+        <option value="none">No Sauce</option>
+        <option value="pepper">Red Wine Sauce</option>
+        <option value="mushroom">White Sauce</option>
+        <option value="truffle">Gluten Free White Sauce</option>
+      </select>
+
+      <label for="requests">Note</label>
+      <textarea id="requests" name="requests" rows="3" placeholder="Notes"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Rupture. All Rights Reserved.
+  </footer>
+</body>
+</html>
