@@ -90,7 +90,8 @@ text-align: center;
     align-items: center;
     color: white;
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
-    margin-bottom: -300px;
+    margin-bottom: -200px;
+    flex-wrap: wrap;
   }
   
   .hero h2 {
@@ -192,3 +193,7 @@ text-align: center;
     margin-left: 20%;
     
   }
+   .lang-switch {
+    margin-left: 70%;
+    margin-top: -2%;
+   }
